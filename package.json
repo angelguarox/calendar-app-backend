@@ -8,18 +8,18 @@
 	},
 	"keywords": [],
 	"author": "",
-	"license": "ISC",
-	"description": "",
+	"license": "MIT",
+	"description": "This is a simple backend to build a REST API that the client will need in the Calendar app.",
 	"devDependencies": {
 		"nodemon": "^3.1.7"
 	},
 	"dependencies": {
 		"bcryptjs": "2.4.3",
 		"cors": "2.8.5",
-		"dotenv": "8.2.0",
-		"express": "4.17.1",
-		"express-validator": "6.5.0",
-		"jsonwebtoken": "8.5.1",
+		"dotenv": "16.4.5",
+		"express": "4.21.1",
+		"express-validator": "7.2.0",
+		"jsonwebtoken": "9.0.2",
 		"mongoose": "^8.7.1"
 	}
 }
