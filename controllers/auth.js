@@ -91,6 +91,10 @@ async function renewToken(req, res) {
 	res.json({
 		ok: true,
 		msg: 'Token was renewed',
+		data: {
+			id,
+			name,
+		},
 		token,
 	});
 }
